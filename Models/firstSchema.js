@@ -147,11 +147,13 @@ const firstSchemaSend = mongoose.model('Members', firstSchema)
 
 // Logical Operater 
 
-    const getData = async()=>{
+    // const getData = async()=>{
         
-            const result = await firstSchemaSend.find({$an})
-        
-}
+            // const result = await firstSchemaSend.find({$and : [{age:{$gte:32 }} , {name:"Ahmed Raza"}]})
+            // const result = await firstSchemaSend.find({$or : [{age:{$gte:32 }} , {name:"Muhammad Saad"}]})
+            // const result = await firstSchemaSend.find( {age:{ $not : {$gt : 32} }})
+// console.log(result)        
+// }
 
 
 
